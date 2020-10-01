@@ -1,8 +1,8 @@
 const gulp = require("gulp");
 const path = require("path");
-const util = require("gulp-util");
 const yargs = require("yargs").argv;
-const { protractor, webdriver_update_specific } = require("gulp-protractor");
+const protractor = require("gulp-protractor").protractor;
+//const { protractor, webdriver_update_specific } = require("gulp-protractor");
 
 // gulp.task("test:driver_update", webdriver_update_specific({
 //     webdriverManagerArgs: ["--ie", "--chrome"]
@@ -10,7 +10,7 @@ const { protractor, webdriver_update_specific } = require("gulp-protractor");
 
 gulp.task("test", () => {
     console.log(`mocha_e2e/${yargs.spec||"*/*.js"}`);
-    gulp.src([])
+    gulp.src("./protractor-mocha-chai-template/**/*")
         .pipe(protractor({
             configFile: path.resolve("./protractor.config.js"),
             args: ["--specs", [

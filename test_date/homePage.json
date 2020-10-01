@@ -1,26 +1,38 @@
 [
     {
-        "Block": "ExadelBlock",
-        "BlockElements": [{"EC": "viewport", "Element": "ExadelInfo"}, {"EC": "viewport", "Element": "ClientsFeedBacksLink"}]
+        "Block": "DigitalSolutionsBlock",
+        "BlockElements": [{"EC": "viewport", "Element": "DigitalSolutionsHeader"}]
     },
     {
-        "Block": "ServicesBlock",
-        "BlockElements": [{"EC": "viewport", "Element": "ViewAllServisesLink"}, {"EC": "viewport", "Element": "#1 of ServiceImages"}]
+        "Block": "WhatsTrendingBlock",
+        "BlockElements": [{"EC": "viewport", "Element": "WhatsTrendingHeader"}, {"EC": "viewport", "Element": "WhatsTrendingDistributedAgile"}, {"EC": "viewport", "Element": "WhatsTrendingDigitalTransformation"}, {"EC": "viewport", "Element": "WhatsTrendingDigitalMarketingSolutions"}]
     },
     {
-        "Block": "NewsBlock",
-        "BlockElements": [{"EC": "viewport", "Element": "BlogColumn"}, {"EC": "viewport", "Element": "LocationColumn"}, {"EC": "clickable", "Element": "ReadMoreButton"}, {"EC": "clickable", "Element": "SeeOurLocationButton"}]
+        "Block": "CompaniesBlock",
+        "BlockElements": [{"EC": "viewport", "Element": "CompaniesBlockHeader"}, {"EC": "viewport", "Element": "CompaniesLogos"}]
     },
     {
-        "Block": "OurWorkBlock",
-        "BlockElements": [{"EC": "viewport", "Element": "OurWorkBlockClientsFeedBacksLink"}, {"EC": "clickable", "Element": "OurWorkBlockClientsFeedBacksLink"}]
+        "Block": "SevicesBlock",
+        "BlockElements": [{"EC": "viewport", "Element": "SevicesBlockHeader"}, {"EC": "viewport", "Element": "ServicesSoftwareEngineering"}, {"EC": "viewport", "Element": "ServicesDigitalTransformation"}]
     },
     {
-        "Block": "ClientslogoBlock",
-        "BlockElements": [{"EC": "viewport", "Element": "#1 of ClientsLogos"}]
+        "Block": "InnovationCloudBlock",
+        "BlockElements": [{"EC": "viewport", "Element": "InnovationCloudBlockHeader"}]
+    },
+    {
+        "Block": "OurExperienceBlock",
+        "BlockElements": [{"EC": "viewport", "Element": "OurExperienceBlockHeader"}]
+    },
+    {
+        "Block": "TechTipsBlockHeader",
+        "BlockElements": [{"EC": "viewport", "Element": "TechTipsBlockHeaderBlockText"}]
+    },
+    {
+        "Block": "TechTipsBlockArticles",
+        "BlockElements": [{"EC": "viewport", "Element": "TechTipsBlockArticles"}, {"EC": "viewport", "Element": "TechTipsBlockArticlesImg"}, {"EC": "viewport", "Element": "TechTipsBlockLearnMoreButton"}, {"EC": "viewport", "Element": "TechTipsBlockMoreArticlesButton"}]
     },
     {
         "Block": "ContactUsBlock",
-        "BlockElements": [{"EC": "viewport", "Element": "ContactUsLink"}, {"EC": "clickable", "Element": "ContactUsLink"}]
+        "BlockElements": [{"EC": "viewport", "Element": "ContactUsButton"}]
     }
 ]

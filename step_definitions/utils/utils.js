@@ -1,7 +1,6 @@
 'use strict';
 
 const expect = require('chai').expect;
-const world = require('../../po/world');
 const EC = protractor.ExpectedConditions;
 const DEFAULT_STEP_TIMEOUT = 60 * 1000;
 let MemoryObject = require('../memory/memory');

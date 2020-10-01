@@ -17,15 +17,15 @@ describe("HOME PAGE", () => {
 
     describe("PAGE TITLE AND URL VERIFICATION", () => {
         it(`verify that Home Page url is equal to the ${browser.baseUrl}`, async () => {
-            const url = await browser.getCurrentUrl();
-
-            return expect(url).to.be.equal(browser.baseUrl);
+            //const url = await browser.getCurrentUrl();
+            //return expect(url).to.be.equal(browser.baseUrl);
+            await EC.urlIs(browser.baseUrl);
         });
 
-        it(`verify that Home Page title is equal to the 'Exadel | Global Enterprise Software & Tech Solutions'`, async () => {
-            const pageTitle = await browser.getTitle();
-
-            return expect(pageTitle).to.be.equal('Exadel | Global Enterprise Software & Tech Solutions');
+        it(`verify that Home Page title is equal to the 'Enterprise Software Development Company | Exadel'`, async () => {
+            //const pageTitle = await browser.getTitle();
+            //return expect(pageTitle).to.be.equal('Enterprise Software Development Company | Exadel');
+            await browser.wait(EC.titleIs('Enterprise Software Development Company | Exadel'), 5000);
         });
     });
 

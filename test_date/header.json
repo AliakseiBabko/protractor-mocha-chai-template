@@ -3,32 +3,32 @@
         "Element": "HeaderLogo"
     },
     {
-        "Element": "SolutionButton",
-        "Dropdown": "SolutionssDropdownItems",
-        "DropdownItems": 9
+        "Element": "ServicesButton",
+        "Dropdown": "ServicesDropdownItems",
+        "DropdownItems": 12
     },
     {
-        "Element": "OurWorkButton",
-        "Dropdown": "OurWorkDropdownItems",
+        "Element": "HowWeWorkButton"
+    },
+    {
+        "Element": "IndustriesButton",
+        "Dropdown": "IndustriesDropdownItems",
         "DropdownItems": 6
     },
     {
-        "Element": "AboutButton",
-        "Dropdown": "AboutDropdownItems",
-        "DropdownItems": 4
+        "Element": "AboutUsButton",
+        "Dropdown": "AboutUsDropdownItems",
+        "DropdownItems": 5
     },
     {
-        "Element": "NewsButton",
-        "Dropdown": "NewsDropdownItems",
-        "DropdownItems": 3
+        "Element": "NewsroomButton",
+        "Dropdown": "NewsroomDropdownItems",
+        "DropdownItems": 5
     },
     {
-        "Element": "ContactButton"
+        "Element": "SearchButton"
     },
     {
-        "Element": "CallUsNumber"
-    },
-    {
-        "Element": "LanguageBlock"
+        "Element": "ContactUsButton"
     }
 ]

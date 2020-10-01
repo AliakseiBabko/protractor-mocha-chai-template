@@ -1,0 +1,14 @@
+[
+    {
+        "Block": "ContactsBlock",
+        "BlockElements": [{"EC": "viewport", "Element": "DigitalSolutionsHeader"}]
+    },
+    {
+        "Block": "ContactFormBlock",
+        "BlockElements": [{"EC": "viewport", "Element": "DigitalSolutionsHeader"}]
+    },
+    {
+        "Block": "LocationsBlock",
+        "BlockElements": [{"EC": "viewport", "Element": "DigitalSolutionsHeader"}]
+    }
+]

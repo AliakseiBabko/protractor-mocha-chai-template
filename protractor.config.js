@@ -6,7 +6,7 @@ const fs = require("fs");
 exports.config = {
     seleniumAddress: 'http://localhost:4444/wd/hub',
     // directConnect: true,  
-    baseUrl: 'https://exadel.com/',
+    baseUrl: 'https://www.exadel.com/',
     capabilities: {
         browserName: 'chrome',
         shardTestFiles: false,

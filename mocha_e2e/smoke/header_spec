@@ -34,7 +34,7 @@ describe("HEADER", async () => {
         }
     });
 
-    describe("LANGUAGE BOX", () => {
+    describe.skip("LANGUAGE BOX", () => {
 
         it("verify that default language in the Language Block is English", async () => {
             await utils.isElementsTextIsEqualTo("HomePage > Header > SelectedLanguage", "English");
