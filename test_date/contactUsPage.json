@@ -1,11 +1,12 @@
 [
     {
         "Block": "ContactsBlock",
-        "BlockElements": [{"EC": "viewport", "Element": "DigitalSolutionsHeader"}]
+        "BlockElements": [{"EC": "viewport", "Element": "ContactsBlockPhoneNumber"}]
     },
     {
         "Block": "ContactFormBlock",
-        "BlockElements": [{"EC": "viewport", "Element": "DigitalSolutionsHeader"}]
+        "TextFields": [{"EC": "viewport", "Element": "ContactFormBlockFirstName"}, {"EC": "viewport", "Element": "ContactFormBlockLastName"}, {"EC": "viewport", "Element": "ContactFormBlockEmail"}, {"EC": "viewport", "Element": "ContactFormBlockPhone"}, {"EC": "viewport", "Element": "ContactFormBlockComments"}],
+        "DropdownFields": [{"EC": "viewport", "Element": "ContactFormBlockDropdown"}]
     },
     {
         "Block": "LocationsBlock",

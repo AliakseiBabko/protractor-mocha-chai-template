@@ -1,5 +1,4 @@
 const expect = require('chai').expect;
-const world = require('../../po/world');
 const EC = protractor.ExpectedConditions;
 const CUSTOM_TIMEOUT = 15 * 1000;
 const parser = require('../../step_definitions/utils/poParser');
