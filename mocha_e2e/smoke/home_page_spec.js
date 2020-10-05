@@ -3,7 +3,6 @@ const EC = protractor.ExpectedConditions;
 const CUSTOM_TIMEOUT = 15 * 1000;
 const parser = require('../../step_definitions/utils/poParser');
 const utils = require('../../step_definitions/utils/utils');
-const MemoryObject = require('../../step_definitions/memory/memory');
 const outline = require("../../outline/outline");
 const HomePageBlocks = require("../../test_date/homePage.json");
 

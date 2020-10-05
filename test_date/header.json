@@ -5,7 +5,7 @@
     {
         "Element": "ServicesButton",
         "Dropdown": "ServicesDropdownItems",
-        "DropdownItems": 12
+        "DropdownItems": 14
     },
     {
         "Element": "HowWeWorkButton"
@@ -13,17 +13,17 @@
     {
         "Element": "IndustriesButton",
         "Dropdown": "IndustriesDropdownItems",
-        "DropdownItems": 6
+        "DropdownItems": 8
     },
     {
         "Element": "AboutUsButton",
         "Dropdown": "AboutUsDropdownItems",
-        "DropdownItems": 5
+        "DropdownItems": 7
     },
     {
         "Element": "NewsroomButton",
         "Dropdown": "NewsroomDropdownItems",
-        "DropdownItems": 5
+        "DropdownItems": 7
     },
     {
         "Element": "SearchButton"

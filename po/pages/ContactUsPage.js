@@ -14,7 +14,7 @@ class ContactUsPage extends BasePage {
         this.ContactFormBlockEmail = element(by.css("[name='email']"));
         this.ContactFormBlockPhone = element(by.css("[name='phone']"));
         this.ContactFormBlockDropdown = element(by.css("[name='subject\[\]']"));
-        this.ContactFormBlockDropdownItems = this.ContactFormBlockDropdown.$$("select[name='subject[]'] > option");
+        this.ContactFormBlockDropdownItems = element.all(by.tagName('option'));
         this.ContactFormBlockComments = element(by.css("[name='Description_Primary__c']"));
         this.ContactFormBlockConfirmationCheckbox = element(by.css("[name='Check-this-box-to-confirm-you-have-read']"));
         this.ContactFormBlockRecaptchaCheckbox = element(by.css("#recaptcha-anchor"));

@@ -5,6 +5,7 @@
     },
     {
         "Block": "ContactFormBlock",
+        "BlockElements": [{"EC": "viewport", "Element": "ContactFormBlockFirstName"}, {"EC": "viewport", "Element": "ContactFormBlockLastName"}, {"EC": "viewport", "Element": "ContactFormBlockEmail"}, {"EC": "viewport", "Element": "ContactFormBlockPhone"}, {"EC": "viewport", "Element": "ContactFormBlockComments"}, {"EC": "viewport", "Element": "ContactFormBlockDropdown"}],        
         "TextFields": [{"EC": "viewport", "Element": "ContactFormBlockFirstName"}, {"EC": "viewport", "Element": "ContactFormBlockLastName"}, {"EC": "viewport", "Element": "ContactFormBlockEmail"}, {"EC": "viewport", "Element": "ContactFormBlockPhone"}, {"EC": "viewport", "Element": "ContactFormBlockComments"}],
         "DropdownFields": [{"EC": "viewport", "Element": "ContactFormBlockDropdown"}]
     },
